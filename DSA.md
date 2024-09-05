@@ -36,7 +36,26 @@ Arrays are used to organize collections of values. They come in two main types:
 - **Efficiency**: Arrays are highly efficient when implemented as stacks.
 - **Practical Example**: Check out the [Baseball Game Problem](https://leetcode.com/problems/baseball-game/description/) for a stack-based solution!
 
-### 🤔 When to Use a Stack?
-- Ensuring that a system completes tasks in a specific order (e.g., function calls, parsing expressions).
-- Reversing operations or data (e.g., reversing strings).
-- Implementing **Undo/Redo** functionality (e.g., in text editors or applications).
+## 🤔 When to Use a Stack?
+
+- **Ensuring Order of Operations:** 
+  Used when tasks must be completed in a specific order, such as function calls or parsing expressions.
+  
+- **Reversing Data:** 
+  Useful for operations that require reversing, like reversing strings or lists.
+
+- **Undo/Redo Functionality:** 
+  Commonly used in applications (e.g., text editors) to implement **Undo/Redo** functionalities.
+
+## 🤔 When to Use a Queue?
+- **First-In-First-Out (FIFO) Processing:**
+  Ideal for scenarios where the first element added needs to be the first processed.
+  
+  - **Task Scheduling:**  
+    Managing tasks in an order where the first task added should be the first executed (e.g., print queues, process scheduling in operating systems).
+  
+  - **Breadth-First Search (BFS):**  
+    Used to explore nodes in a graph level by level.
+  
+  - **Real-Time Systems:**  
+    Handling events or messages in the order they occur, such as incoming network requests or event handling in games or user interfaces.
