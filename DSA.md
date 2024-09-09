@@ -59,3 +59,10 @@ Arrays are used to organize collections of values. They come in two main types:
   
   - **Real-Time Systems:**  
     Handling events or messages in the order they occur, such as incoming network requests or event handling in games or user interfaces.
+
+## Fixed Sliding Window
+- Typically the sliding window has left and right pointers to represent the boundaries of the window
+- We can track of th e contents of a window using a hash table or set.
+- The aim of the sliding window is to reduce the use of nested loops  and instead replace it with a single loop. (This can reduce complexity from O(n2) to O(n)
+- This is useful when we want to find subarrays or substrings that meet a given condition within a given length.
+
